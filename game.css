@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    height: 100%;
+    /* height: 736px; */
+    background-color: rgb(82, 121, 97);
+}
+.oyin_sharti{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.avtor{
+    text-align: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.button{
+    /* margin-left: 42%; */
+    width: 350px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgb(221, 50, 50);
+}

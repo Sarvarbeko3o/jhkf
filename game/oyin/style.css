@@ -1,0 +1,43 @@
+.w{
+    border: 3px solid black;
+    width: 100%;
+    height: 736px;
+    align-items: center ;
+}
+.e{
+    background-color: red;
+    /* border: green 2px solid; */
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    animation-name: sarvar;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes sarvar {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+        background-color: red;
+    }
+    25%{
+        margin-left: 75%;
+        margin-top: 0px;
+        background-color: rgb(146, 17, 221);
+    }
+    50%{
+        margin-top: 640px;
+        margin-left: 75%;
+        background-color: rgb(42, 235, 25);
+    }
+    75%{
+        margin-left: 0px;
+        margin-top: 640px;
+        background-color: rgb(88, 85, 239);
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: red;
+    }
+}
